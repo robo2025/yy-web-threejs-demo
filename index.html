@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FBX demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            font-family: Monospace;
+            background-color: #000;
+            color: #fff;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        #info {
+            color: #fff;
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            text-align: center;
+            z-index: 100;
+            display: block;
+        }
+
+        #info a {
+            color: #046;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="info">
+        <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> - FBXLoader
+    </div>
+
+    <!-- https://github.com/mrdoob/three.js/blob/dev/build/three.min.js -->
+    <script src="js/vendor/three.min.js"></script>
+    <!-- https://github.com/imaya/zlib.js/blob/develop/bin/inflate.min.js -->
+    <script src="js/vendor/inflate.min.js"></script>
+    <!-- https://github.com/mrdoob/three.js/blob/dev/examples/js/loaders/FBXLoader.js -->
+    <script src="js/vendor/FBXLoader.js"></script>
+    <!-- https://github.com/mrdoob/three.js/blob/dev/examples/js/controls/OrbitControls.js -->
+    <script src="js/vendor/OrbitControls.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
