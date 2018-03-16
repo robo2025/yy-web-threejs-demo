@@ -18,8 +18,8 @@ function init() {
     // aspect — Camera frustum aspect ratio. 相机平截头长宽比
     // near — Camera frustum near plane.
     // far — Camera frustum far plane
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
-    camera.position.set(100, 200, 300);
+    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 3000);
+    camera.position.set(200, 200, 900);
 
     //轨道控制
     controls = new THREE.OrbitControls(camera);
