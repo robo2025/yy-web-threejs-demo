@@ -85,7 +85,7 @@ function init() {
         });
 
         scene.add(object);
-
+        document.getElementById('preloader').style.display = 'none';  
     });
 
     renderer = new THREE.WebGLRenderer();
@@ -126,7 +126,5 @@ function animate() {
     }
 
     renderer.render(scene, camera);
-
     // stats.update();
-
 }
